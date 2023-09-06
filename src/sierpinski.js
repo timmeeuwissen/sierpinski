@@ -4,7 +4,6 @@ const sierpinski = (canvas, startPoints, randomPoint, iterations=25000, pointSiz
   ctx.fillStyle = "black";
 
   const draw = (point) => {
-    console.log('drawing', point);
     ctx.fillRect(point[0],point[1],pointSize,pointSize);
   }    
       
